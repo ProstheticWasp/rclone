@@ -348,6 +348,5 @@ jobs:
         run: |
           curl -#o - -T "rclone-android-${RCLONE_NDK_VERSION}-armv8a" "https://w.buzzheavier.com/binary" | cat
         env:
-          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
         # Upload artifacts if not a PR && not a fork
-        if: env.RCLONE_CONFIG_PASS != '' && github.head_ref == '' && github.repository == 'Prostheticpaw/rclone'
+        if: github.repository == 'Prostheticpaw/rclone'
