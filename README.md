@@ -17,6 +17,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/rclone/rclone)](https://hub.docker.com/r/rclone/rclone)
 
 # Rclone
+(please note: this is just a repo I'm using to get the latest builds)
 
 Rclone *("rsync for cloud storage")* is a command-line program to sync files and
 directories to and from different cloud storage providers.
